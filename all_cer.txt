@@ -1,0 +1,1212 @@
+steps/scoring/score_kaldi_cer.sh --cmd run.pl data/matbn_dev_hires data/lang_rescore exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_dev_rescore
+steps/scoring/score_kaldi_cer.sh: scoring with word insertion penalty=0.0,0.5,1.0
+<WER>
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_dev_rescore/wer_10_0.0
+%WER 14.98 [ 4791 / 31986, 351 ins, 807 del, 3633 sub ]
+%SER 90.79 [ 641 / 706 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_dev_rescore/wer_10_0.5
+%WER 14.86 [ 4752 / 31986, 276 ins, 926 del, 3550 sub ]
+%SER 90.79 [ 641 / 706 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_dev_rescore/wer_10_1.0
+%WER 14.94 [ 4778 / 31986, 215 ins, 1046 del, 3517 sub ]
+%SER 90.93 [ 642 / 706 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_dev_rescore/wer_11_0.0
+%WER 15.09 [ 4828 / 31986, 340 ins, 879 del, 3609 sub ]
+%SER 91.08 [ 643 / 706 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_dev_rescore/wer_11_0.5
+%WER 14.95 [ 4781 / 31986, 260 ins, 1014 del, 3507 sub ]
+%SER 91.22 [ 644 / 706 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_dev_rescore/wer_11_1.0
+%WER 15.14 [ 4844 / 31986, 204 ins, 1175 del, 3465 sub ]
+%SER 91.22 [ 644 / 706 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_dev_rescore/wer_12_0.0
+%WER 15.15 [ 4847 / 31986, 313 ins, 966 del, 3568 sub ]
+%SER 91.22 [ 644 / 706 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_dev_rescore/wer_12_0.5
+%WER 15.18 [ 4856 / 31986, 240 ins, 1133 del, 3483 sub ]
+%SER 91.50 [ 646 / 706 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_dev_rescore/wer_12_1.0
+%WER 15.48 [ 4952 / 31986, 191 ins, 1308 del, 3453 sub ]
+%SER 91.64 [ 647 / 706 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_dev_rescore/wer_13_0.0
+%WER 15.46 [ 4946 / 31986, 300 ins, 1078 del, 3568 sub ]
+%SER 91.50 [ 646 / 706 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_dev_rescore/wer_13_0.5
+%WER 15.54 [ 4970 / 31986, 238 ins, 1240 del, 3492 sub ]
+%SER 91.64 [ 647 / 706 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_dev_rescore/wer_13_1.0
+%WER 15.94 [ 5098 / 31986, 186 ins, 1461 del, 3451 sub ]
+%SER 91.93 [ 649 / 706 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_dev_rescore/wer_14_0.0
+%WER 15.72 [ 5029 / 31986, 295 ins, 1164 del, 3570 sub ]
+%SER 91.78 [ 648 / 706 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_dev_rescore/wer_14_0.5
+%WER 15.99 [ 5114 / 31986, 232 ins, 1380 del, 3502 sub ]
+%SER 91.93 [ 649 / 706 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_dev_rescore/wer_14_1.0
+%WER 16.33 [ 5224 / 31986, 177 ins, 1608 del, 3439 sub ]
+%SER 91.93 [ 649 / 706 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_dev_rescore/wer_15_0.0
+%WER 16.12 [ 5157 / 31986, 290 ins, 1279 del, 3588 sub ]
+%SER 92.35 [ 652 / 706 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_dev_rescore/wer_15_0.5
+%WER 16.36 [ 5232 / 31986, 222 ins, 1521 del, 3489 sub ]
+%SER 92.07 [ 650 / 706 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_dev_rescore/wer_15_1.0
+%WER 16.81 [ 5378 / 31986, 178 ins, 1744 del, 3456 sub ]
+%SER 92.35 [ 652 / 706 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_dev_rescore/wer_16_0.0
+%WER 16.65 [ 5327 / 31986, 289 ins, 1385 del, 3653 sub ]
+%SER 92.63 [ 654 / 706 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_dev_rescore/wer_16_0.5
+%WER 16.92 [ 5413 / 31986, 222 ins, 1635 del, 3556 sub ]
+%SER 92.35 [ 652 / 706 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_dev_rescore/wer_16_1.0
+%WER 17.28 [ 5527 / 31986, 170 ins, 1849 del, 3508 sub ]
+%SER 92.35 [ 652 / 706 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_dev_rescore/wer_17_0.0
+%WER 17.05 [ 5453 / 31986, 283 ins, 1502 del, 3668 sub ]
+%SER 92.63 [ 654 / 706 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_dev_rescore/wer_17_0.5
+%WER 17.33 [ 5543 / 31986, 217 ins, 1739 del, 3587 sub ]
+%SER 92.35 [ 652 / 706 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_dev_rescore/wer_17_1.0
+%WER 17.60 [ 5630 / 31986, 167 ins, 1947 del, 3516 sub ]
+%SER 92.49 [ 653 / 706 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_dev_rescore/wer_7_0.0
+%WER 15.37 [ 4915 / 31986, 473 ins, 627 del, 3815 sub ]
+%SER 90.65 [ 640 / 706 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_dev_rescore/wer_7_0.5
+%WER 15.11 [ 4833 / 31986, 385 ins, 701 del, 3747 sub ]
+%SER 90.79 [ 641 / 706 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_dev_rescore/wer_7_1.0
+%WER 14.99 [ 4794 / 31986, 316 ins, 783 del, 3695 sub ]
+%SER 90.79 [ 641 / 706 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_dev_rescore/wer_8_0.0
+%WER 15.07 [ 4819 / 31986, 423 ins, 683 del, 3713 sub ]
+%SER 90.37 [ 638 / 706 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_dev_rescore/wer_8_0.5
+%WER 14.97 [ 4787 / 31986, 340 ins, 778 del, 3669 sub ]
+%SER 90.37 [ 638 / 706 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_dev_rescore/wer_8_1.0
+%WER 14.95 [ 4781 / 31986, 284 ins, 881 del, 3616 sub ]
+%SER 90.51 [ 639 / 706 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_dev_rescore/wer_9_0.0
+%WER 14.93 [ 4775 / 31986, 367 ins, 759 del, 3649 sub ]
+%SER 90.51 [ 639 / 706 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_dev_rescore/wer_9_0.5
+%WER 14.87 [ 4755 / 31986, 304 ins, 847 del, 3604 sub ]
+%SER 90.65 [ 640 / 706 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_dev_rescore/wer_9_1.0
+%WER 14.94 [ 4780 / 31986, 253 ins, 961 del, 3566 sub ]
+%SER 90.79 [ 641 / 706 ]
+<CER>
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_dev_rescore/cer_10_0.0
+%WER 9.12 [ 4942 / 54175, 124 ins, 595 del, 4223 sub ]
+%SER 89.52 [ 632 / 706 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_dev_rescore/cer_10_0.5
+%WER 9.10 [ 4930 / 54175, 113 ins, 666 del, 4151 sub ]
+%SER 89.80 [ 634 / 706 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_dev_rescore/cer_10_1.0
+%WER 9.18 [ 4971 / 54175, 100 ins, 718 del, 4153 sub ]
+%SER 89.94 [ 635 / 706 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_dev_rescore/cer_11_0.0
+%WER 9.18 [ 4974 / 54175, 121 ins, 686 del, 4167 sub ]
+%SER 89.80 [ 634 / 706 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_dev_rescore/cer_11_0.5
+%WER 9.16 [ 4963 / 54175, 108 ins, 762 del, 4093 sub ]
+%SER 90.37 [ 638 / 706 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_dev_rescore/cer_11_1.0
+%WER 9.32 [ 5049 / 54175, 100 ins, 857 del, 4092 sub ]
+%SER 90.23 [ 637 / 706 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_dev_rescore/cer_12_0.0
+%WER 9.29 [ 5031 / 54175, 114 ins, 794 del, 4123 sub ]
+%SER 90.08 [ 636 / 706 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_dev_rescore/cer_12_0.5
+%WER 9.35 [ 5066 / 54175, 102 ins, 904 del, 4060 sub ]
+%SER 90.65 [ 640 / 706 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_dev_rescore/cer_12_1.0
+%WER 9.56 [ 5177 / 54175, 96 ins, 1010 del, 4071 sub ]
+%SER 90.79 [ 641 / 706 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_dev_rescore/cer_13_0.0
+%WER 9.48 [ 5136 / 54175, 113 ins, 922 del, 4101 sub ]
+%SER 90.65 [ 640 / 706 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_dev_rescore/cer_13_0.5
+%WER 9.61 [ 5204 / 54175, 102 ins, 1023 del, 4079 sub ]
+%SER 91.08 [ 643 / 706 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_dev_rescore/cer_13_1.0
+%WER 9.87 [ 5348 / 54175, 101 ins, 1150 del, 4097 sub ]
+%SER 91.22 [ 644 / 706 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_dev_rescore/cer_14_0.0
+%WER 9.69 [ 5250 / 54175, 120 ins, 1038 del, 4092 sub ]
+%SER 91.36 [ 645 / 706 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_dev_rescore/cer_14_0.5
+%WER 9.90 [ 5363 / 54175, 110 ins, 1166 del, 4087 sub ]
+%SER 91.64 [ 647 / 706 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_dev_rescore/cer_14_1.0
+%WER 10.17 [ 5508 / 54175, 102 ins, 1317 del, 4089 sub ]
+%SER 91.50 [ 646 / 706 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_dev_rescore/cer_15_0.0
+%WER 10.00 [ 5418 / 54175, 121 ins, 1165 del, 4132 sub ]
+%SER 91.93 [ 649 / 706 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_dev_rescore/cer_15_0.5
+%WER 10.22 [ 5534 / 54175, 111 ins, 1330 del, 4093 sub ]
+%SER 91.78 [ 648 / 706 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_dev_rescore/cer_15_1.0
+%WER 10.53 [ 5707 / 54175, 102 ins, 1480 del, 4125 sub ]
+%SER 92.07 [ 650 / 706 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_dev_rescore/cer_16_0.0
+%WER 10.43 [ 5651 / 54175, 124 ins, 1305 del, 4222 sub ]
+%SER 92.21 [ 651 / 706 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_dev_rescore/cer_16_0.5
+%WER 10.64 [ 5765 / 54175, 114 ins, 1457 del, 4194 sub ]
+%SER 92.07 [ 650 / 706 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_dev_rescore/cer_16_1.0
+%WER 10.92 [ 5918 / 54175, 105 ins, 1605 del, 4208 sub ]
+%SER 92.07 [ 650 / 706 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_dev_rescore/cer_17_0.0
+%WER 10.70 [ 5795 / 54175, 125 ins, 1418 del, 4252 sub ]
+%SER 92.21 [ 651 / 706 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_dev_rescore/cer_17_0.5
+%WER 10.94 [ 5928 / 54175, 116 ins, 1571 del, 4241 sub ]
+%SER 92.07 [ 650 / 706 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_dev_rescore/cer_17_1.0
+%WER 11.15 [ 6038 / 54175, 109 ins, 1717 del, 4212 sub ]
+%SER 92.21 [ 651 / 706 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_dev_rescore/cer_7_0.0
+%WER 9.28 [ 5030 / 54175, 168 ins, 400 del, 4462 sub ]
+%SER 89.38 [ 631 / 706 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_dev_rescore/cer_7_0.5
+%WER 9.18 [ 4973 / 54175, 146 ins, 426 del, 4401 sub ]
+%SER 89.24 [ 630 / 706 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_dev_rescore/cer_7_1.0
+%WER 9.15 [ 4959 / 54175, 135 ins, 449 del, 4375 sub ]
+%SER 89.24 [ 630 / 706 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_dev_rescore/cer_8_0.0
+%WER 9.11 [ 4934 / 54175, 144 ins, 457 del, 4333 sub ]
+%SER 89.09 [ 629 / 706 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_dev_rescore/cer_8_0.5
+%WER 9.09 [ 4922 / 54175, 123 ins, 490 del, 4309 sub ]
+%SER 89.09 [ 629 / 706 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_dev_rescore/cer_8_1.0
+%WER 9.13 [ 4946 / 54175, 117 ins, 533 del, 4296 sub ]
+%SER 89.24 [ 630 / 706 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_dev_rescore/cer_9_0.0
+%WER 9.05 [ 4901 / 54175, 126 ins, 530 del, 4245 sub ]
+%SER 89.24 [ 630 / 706 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_dev_rescore/cer_9_0.5
+%WER 9.08 [ 4917 / 54175, 121 ins, 568 del, 4228 sub ]
+%SER 89.52 [ 632 / 706 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_dev_rescore/cer_9_1.0
+%WER 9.14 [ 4950 / 54175, 115 ins, 616 del, 4219 sub ]
+%SER 89.52 [ 632 / 706 ]
+steps/scoring/score_kaldi_cer.sh --cmd run.pl data/matbn_test_hires data/lang_rescore exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_test_rescore
+steps/scoring/score_kaldi_cer.sh: scoring with word insertion penalty=0.0,0.5,1.0
+<WER>
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_test_rescore/wer_10_0.0
+%WER 14.91 [ 4515 / 30289, 357 ins, 765 del, 3393 sub ]
+%SER 89.90 [ 605 / 673 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_test_rescore/wer_10_0.5
+%WER 14.88 [ 4506 / 30289, 266 ins, 895 del, 3345 sub ]
+%SER 89.60 [ 603 / 673 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_test_rescore/wer_10_1.0
+%WER 15.03 [ 4553 / 30289, 210 ins, 1040 del, 3303 sub ]
+%SER 90.19 [ 607 / 673 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_test_rescore/wer_11_0.0
+%WER 14.99 [ 4541 / 30289, 321 ins, 855 del, 3365 sub ]
+%SER 90.19 [ 607 / 673 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_test_rescore/wer_11_0.5
+%WER 15.03 [ 4551 / 30289, 241 ins, 1010 del, 3300 sub ]
+%SER 90.34 [ 608 / 673 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_test_rescore/wer_11_1.0
+%WER 15.16 [ 4593 / 30289, 194 ins, 1156 del, 3243 sub ]
+%SER 90.49 [ 609 / 673 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_test_rescore/wer_12_0.0
+%WER 15.10 [ 4573 / 30289, 294 ins, 934 del, 3345 sub ]
+%SER 90.34 [ 608 / 673 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_test_rescore/wer_12_0.5
+%WER 15.17 [ 4595 / 30289, 224 ins, 1121 del, 3250 sub ]
+%SER 90.34 [ 608 / 673 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_test_rescore/wer_12_1.0
+%WER 15.43 [ 4674 / 30289, 181 ins, 1295 del, 3198 sub ]
+%SER 90.34 [ 608 / 673 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_test_rescore/wer_13_0.0
+%WER 15.38 [ 4659 / 30289, 277 ins, 1054 del, 3328 sub ]
+%SER 90.49 [ 609 / 673 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_test_rescore/wer_13_0.5
+%WER 15.53 [ 4705 / 30289, 216 ins, 1241 del, 3248 sub ]
+%SER 90.64 [ 610 / 673 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_test_rescore/wer_13_1.0
+%WER 15.73 [ 4764 / 30289, 169 ins, 1407 del, 3188 sub ]
+%SER 90.64 [ 610 / 673 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_test_rescore/wer_14_0.0
+%WER 15.61 [ 4727 / 30289, 267 ins, 1163 del, 3297 sub ]
+%SER 90.94 [ 612 / 673 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_test_rescore/wer_14_0.5
+%WER 15.86 [ 4804 / 30289, 209 ins, 1355 del, 3240 sub ]
+%SER 90.94 [ 612 / 673 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_test_rescore/wer_14_1.0
+%WER 16.14 [ 4889 / 30289, 162 ins, 1533 del, 3194 sub ]
+%SER 90.64 [ 610 / 673 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_test_rescore/wer_15_0.0
+%WER 15.91 [ 4818 / 30289, 267 ins, 1245 del, 3306 sub ]
+%SER 91.08 [ 613 / 673 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_test_rescore/wer_15_0.5
+%WER 16.17 [ 4898 / 30289, 198 ins, 1449 del, 3251 sub ]
+%SER 91.08 [ 613 / 673 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_test_rescore/wer_15_1.0
+%WER 16.55 [ 5012 / 30289, 157 ins, 1654 del, 3201 sub ]
+%SER 91.08 [ 613 / 673 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_test_rescore/wer_16_0.0
+%WER 16.30 [ 4936 / 30289, 260 ins, 1346 del, 3330 sub ]
+%SER 91.68 [ 617 / 673 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_test_rescore/wer_16_0.5
+%WER 16.62 [ 5033 / 30289, 198 ins, 1558 del, 3277 sub ]
+%SER 91.38 [ 615 / 673 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_test_rescore/wer_16_1.0
+%WER 16.96 [ 5137 / 30289, 156 ins, 1770 del, 3211 sub ]
+%SER 91.38 [ 615 / 673 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_test_rescore/wer_17_0.0
+%WER 16.67 [ 5050 / 30289, 261 ins, 1433 del, 3356 sub ]
+%SER 91.98 [ 619 / 673 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_test_rescore/wer_17_0.5
+%WER 17.00 [ 5149 / 30289, 194 ins, 1658 del, 3297 sub ]
+%SER 91.98 [ 619 / 673 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_test_rescore/wer_17_1.0
+%WER 17.40 [ 5270 / 30289, 154 ins, 1877 del, 3239 sub ]
+%SER 91.98 [ 619 / 673 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_test_rescore/wer_7_0.0
+%WER 15.16 [ 4592 / 30289, 449 ins, 597 del, 3546 sub ]
+%SER 89.75 [ 604 / 673 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_test_rescore/wer_7_0.5
+%WER 15.01 [ 4545 / 30289, 371 ins, 676 del, 3498 sub ]
+%SER 90.19 [ 607 / 673 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_test_rescore/wer_7_1.0
+%WER 15.09 [ 4570 / 30289, 316 ins, 763 del, 3491 sub ]
+%SER 89.90 [ 605 / 673 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_test_rescore/wer_8_0.0
+%WER 14.84 [ 4494 / 30289, 400 ins, 644 del, 3450 sub ]
+%SER 89.60 [ 603 / 673 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_test_rescore/wer_8_0.5
+%WER 14.75 [ 4469 / 30289, 334 ins, 724 del, 3411 sub ]
+%SER 89.90 [ 605 / 673 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_test_rescore/wer_8_1.0
+%WER 14.84 [ 4496 / 30289, 274 ins, 838 del, 3384 sub ]
+%SER 89.75 [ 604 / 673 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_test_rescore/wer_9_0.0
+%WER 14.75 [ 4467 / 30289, 368 ins, 702 del, 3397 sub ]
+%SER 89.75 [ 604 / 673 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_test_rescore/wer_9_0.5
+%WER 14.70 [ 4452 / 30289, 298 ins, 793 del, 3361 sub ]
+%SER 89.90 [ 605 / 673 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_test_rescore/wer_9_1.0
+%WER 14.80 [ 4482 / 30289, 239 ins, 922 del, 3321 sub ]
+%SER 89.75 [ 604 / 673 ]
+<CER>
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_test_rescore/cer_10_0.0
+%WER 8.93 [ 4575 / 51244, 136 ins, 593 del, 3846 sub ]
+%SER 88.41 [ 595 / 673 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_test_rescore/cer_10_0.5
+%WER 8.98 [ 4604 / 51244, 120 ins, 647 del, 3837 sub ]
+%SER 88.11 [ 593 / 673 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_test_rescore/cer_10_1.0
+%WER 9.11 [ 4669 / 51244, 108 ins, 725 del, 3836 sub ]
+%SER 88.86 [ 598 / 673 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_test_rescore/cer_11_0.0
+%WER 9.03 [ 4625 / 51244, 124 ins, 693 del, 3808 sub ]
+%SER 88.56 [ 596 / 673 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_test_rescore/cer_11_0.5
+%WER 9.09 [ 4660 / 51244, 112 ins, 764 del, 3784 sub ]
+%SER 88.86 [ 598 / 673 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_test_rescore/cer_11_1.0
+%WER 9.22 [ 4724 / 51244, 105 ins, 847 del, 3772 sub ]
+%SER 89.15 [ 600 / 673 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_test_rescore/cer_12_0.0
+%WER 9.11 [ 4667 / 51244, 115 ins, 778 del, 3774 sub ]
+%SER 88.71 [ 597 / 673 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_test_rescore/cer_12_0.5
+%WER 9.24 [ 4735 / 51244, 105 ins, 885 del, 3745 sub ]
+%SER 88.86 [ 598 / 673 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_test_rescore/cer_12_1.0
+%WER 9.42 [ 4829 / 51244, 96 ins, 1005 del, 3728 sub ]
+%SER 89.00 [ 599 / 673 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_test_rescore/cer_13_0.0
+%WER 9.33 [ 4782 / 51244, 114 ins, 899 del, 3769 sub ]
+%SER 88.86 [ 598 / 673 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_test_rescore/cer_13_0.5
+%WER 9.50 [ 4867 / 51244, 101 ins, 1018 del, 3748 sub ]
+%SER 89.15 [ 600 / 673 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_test_rescore/cer_13_1.0
+%WER 9.64 [ 4941 / 51244, 85 ins, 1129 del, 3727 sub ]
+%SER 89.45 [ 602 / 673 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_test_rescore/cer_14_0.0
+%WER 9.54 [ 4889 / 51244, 110 ins, 1034 del, 3745 sub ]
+%SER 89.30 [ 601 / 673 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_test_rescore/cer_14_0.5
+%WER 9.74 [ 4991 / 51244, 94 ins, 1155 del, 3742 sub ]
+%SER 89.60 [ 603 / 673 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_test_rescore/cer_14_1.0
+%WER 9.97 [ 5109 / 51244, 80 ins, 1280 del, 3749 sub ]
+%SER 89.45 [ 602 / 673 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_test_rescore/cer_15_0.0
+%WER 9.83 [ 5039 / 51244, 116 ins, 1142 del, 3781 sub ]
+%SER 89.75 [ 604 / 673 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_test_rescore/cer_15_0.5
+%WER 10.02 [ 5134 / 51244, 98 ins, 1278 del, 3758 sub ]
+%SER 89.90 [ 605 / 673 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_test_rescore/cer_15_1.0
+%WER 10.28 [ 5267 / 51244, 88 ins, 1427 del, 3752 sub ]
+%SER 89.90 [ 605 / 673 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_test_rescore/cer_16_0.0
+%WER 10.09 [ 5172 / 51244, 113 ins, 1262 del, 3797 sub ]
+%SER 90.49 [ 609 / 673 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_test_rescore/cer_16_0.5
+%WER 10.33 [ 5293 / 51244, 98 ins, 1412 del, 3783 sub ]
+%SER 90.19 [ 607 / 673 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_test_rescore/cer_16_1.0
+%WER 10.58 [ 5420 / 51244, 90 ins, 1565 del, 3765 sub ]
+%SER 90.34 [ 608 / 673 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_test_rescore/cer_17_0.0
+%WER 10.36 [ 5308 / 51244, 116 ins, 1355 del, 3837 sub ]
+%SER 90.94 [ 612 / 673 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_test_rescore/cer_17_0.5
+%WER 10.61 [ 5435 / 51244, 96 ins, 1529 del, 3810 sub ]
+%SER 90.79 [ 611 / 673 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_test_rescore/cer_17_1.0
+%WER 10.87 [ 5568 / 51244, 88 ins, 1657 del, 3823 sub ]
+%SER 91.08 [ 613 / 673 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_test_rescore/cer_7_0.0
+%WER 9.05 [ 4637 / 51244, 163 ins, 382 del, 4092 sub ]
+%SER 88.41 [ 595 / 673 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_test_rescore/cer_7_0.5
+%WER 8.98 [ 4602 / 51244, 147 ins, 414 del, 4041 sub ]
+%SER 88.71 [ 597 / 673 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_test_rescore/cer_7_1.0
+%WER 9.05 [ 4639 / 51244, 146 ins, 428 del, 4065 sub ]
+%SER 88.41 [ 595 / 673 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_test_rescore/cer_8_0.0
+%WER 8.84 [ 4532 / 51244, 147 ins, 437 del, 3948 sub ]
+%SER 88.11 [ 593 / 673 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_test_rescore/cer_8_0.5
+%WER 8.82 [ 4521 / 51244, 138 ins, 468 del, 3915 sub ]
+%SER 88.41 [ 595 / 673 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_test_rescore/cer_8_1.0
+%WER 8.91 [ 4564 / 51244, 123 ins, 515 del, 3926 sub ]
+%SER 88.41 [ 595 / 673 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_test_rescore/cer_9_0.0
+%WER 8.81 [ 4515 / 51244, 141 ins, 509 del, 3865 sub ]
+%SER 88.26 [ 594 / 673 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_test_rescore/cer_9_0.5
+%WER 8.83 [ 4525 / 51244, 128 ins, 558 del, 3839 sub ]
+%SER 88.26 [ 594 / 673 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_matbn_test_rescore/cer_9_1.0
+%WER 8.91 [ 4566 / 51244, 116 ins, 596 del, 3854 sub ]
+%SER 88.41 [ 595 / 673 ]
+steps/scoring/score_kaldi_cer.sh --cmd run.pl data/fgc_wo_noise_dev_hires data/lang_rescore exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_dev_rescore
+steps/scoring/score_kaldi_cer.sh: scoring with word insertion penalty=0.0,0.5,1.0
+<WER>
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_dev_rescore/wer_10_0.0
+%WER 39.50 [ 41896 / 106069, 9317 ins, 10781 del, 21798 sub ]
+%SER 91.67 [ 1936 / 2112 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_dev_rescore/wer_10_0.5
+%WER 38.79 [ 41149 / 106069, 8270 ins, 11383 del, 21496 sub ]
+%SER 91.76 [ 1938 / 2112 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_dev_rescore/wer_10_1.0
+%WER 38.41 [ 40736 / 106069, 7488 ins, 12060 del, 21188 sub ]
+%SER 91.57 [ 1934 / 2112 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_dev_rescore/wer_11_0.0
+%WER 38.98 [ 41344 / 106069, 8645 ins, 11041 del, 21658 sub ]
+%SER 91.71 [ 1937 / 2112 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_dev_rescore/wer_11_0.5
+%WER 38.39 [ 40722 / 106069, 7649 ins, 11725 del, 21348 sub ]
+%SER 91.71 [ 1937 / 2112 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_dev_rescore/wer_11_1.0
+%WER 38.07 [ 40376 / 106069, 6919 ins, 12384 del, 21073 sub ]
+%SER 91.86 [ 1940 / 2112 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_dev_rescore/wer_12_0.0
+%WER 38.67 [ 41014 / 106069, 8085 ins, 11284 del, 21645 sub ]
+%SER 91.86 [ 1940 / 2112 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_dev_rescore/wer_12_0.5
+%WER 38.18 [ 40502 / 106069, 7143 ins, 12007 del, 21352 sub ]
+%SER 91.90 [ 1941 / 2112 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_dev_rescore/wer_12_1.0
+%WER 37.92 [ 40217 / 106069, 6500 ins, 12868 del, 20849 sub ]
+%SER 91.95 [ 1942 / 2112 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_dev_rescore/wer_13_0.0
+%WER 38.53 [ 40871 / 106069, 7673 ins, 11508 del, 21690 sub ]
+%SER 91.95 [ 1942 / 2112 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_dev_rescore/wer_13_0.5
+%WER 38.12 [ 40434 / 106069, 6837 ins, 12382 del, 21215 sub ]
+%SER 91.90 [ 1941 / 2112 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_dev_rescore/wer_13_1.0
+%WER 37.96 [ 40262 / 106069, 6187 ins, 13128 del, 20947 sub ]
+%SER 92.09 [ 1945 / 2112 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_dev_rescore/wer_14_0.0
+%WER 38.51 [ 40846 / 106069, 7354 ins, 11836 del, 21656 sub ]
+%SER 91.95 [ 1942 / 2112 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_dev_rescore/wer_14_0.5
+%WER 38.15 [ 40461 / 106069, 6562 ins, 12693 del, 21206 sub ]
+%SER 91.95 [ 1942 / 2112 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_dev_rescore/wer_14_1.0
+%WER 37.99 [ 40296 / 106069, 5929 ins, 13430 del, 20937 sub ]
+%SER 92.09 [ 1945 / 2112 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_dev_rescore/wer_15_0.0
+%WER 38.55 [ 40893 / 106069, 7098 ins, 12100 del, 21695 sub ]
+%SER 91.95 [ 1942 / 2112 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_dev_rescore/wer_15_0.5
+%WER 38.28 [ 40601 / 106069, 6352 ins, 12978 del, 21271 sub ]
+%SER 92.09 [ 1945 / 2112 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_dev_rescore/wer_15_1.0
+%WER 38.16 [ 40474 / 106069, 5807 ins, 13781 del, 20886 sub ]
+%SER 92.00 [ 1943 / 2112 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_dev_rescore/wer_16_0.0
+%WER 38.67 [ 41015 / 106069, 6919 ins, 12383 del, 21713 sub ]
+%SER 91.95 [ 1942 / 2112 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_dev_rescore/wer_16_0.5
+%WER 38.42 [ 40756 / 106069, 6207 ins, 13278 del, 21271 sub ]
+%SER 92.05 [ 1944 / 2112 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_dev_rescore/wer_16_1.0
+%WER 38.38 [ 40710 / 106069, 5664 ins, 14011 del, 21035 sub ]
+%SER 92.09 [ 1945 / 2112 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_dev_rescore/wer_17_0.0
+%WER 38.77 [ 41121 / 106069, 6769 ins, 12668 del, 21684 sub ]
+%SER 91.95 [ 1942 / 2112 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_dev_rescore/wer_17_0.5
+%WER 38.61 [ 40949 / 106069, 6068 ins, 13523 del, 21358 sub ]
+%SER 92.05 [ 1944 / 2112 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_dev_rescore/wer_17_1.0
+%WER 38.63 [ 40971 / 106069, 5570 ins, 14247 del, 21154 sub ]
+%SER 92.14 [ 1946 / 2112 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_dev_rescore/wer_7_0.0
+%WER 41.47 [ 43990 / 106069, 11434 ins, 9864 del, 22692 sub ]
+%SER 91.57 [ 1934 / 2112 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_dev_rescore/wer_7_0.5
+%WER 40.70 [ 43172 / 106069, 10567 ins, 10330 del, 22275 sub ]
+%SER 91.57 [ 1934 / 2112 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_dev_rescore/wer_7_1.0
+%WER 40.19 [ 42628 / 106069, 9911 ins, 10869 del, 21848 sub ]
+%SER 91.52 [ 1933 / 2112 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_dev_rescore/wer_8_0.0
+%WER 40.81 [ 43286 / 106069, 10796 ins, 10143 del, 22347 sub ]
+%SER 91.48 [ 1932 / 2112 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_dev_rescore/wer_8_0.5
+%WER 40.04 [ 42475 / 106069, 9878 ins, 10656 del, 21941 sub ]
+%SER 91.57 [ 1934 / 2112 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_dev_rescore/wer_8_1.0
+%WER 39.59 [ 41995 / 106069, 9059 ins, 11253 del, 21683 sub ]
+%SER 91.52 [ 1933 / 2112 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_dev_rescore/wer_9_0.0
+%WER 40.09 [ 42519 / 106069, 10054 ins, 10412 del, 22053 sub ]
+%SER 91.67 [ 1936 / 2112 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_dev_rescore/wer_9_0.5
+%WER 39.37 [ 41758 / 106069, 9115 ins, 11056 del, 21587 sub ]
+%SER 91.76 [ 1938 / 2112 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_dev_rescore/wer_9_1.0
+%WER 38.83 [ 41184 / 106069, 8175 ins, 11689 del, 21320 sub ]
+%SER 91.57 [ 1934 / 2112 ]
+<CER>
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_dev_rescore/cer_10_0.0
+%WER 31.90 [ 51908 / 162743, 12981 ins, 13390 del, 25537 sub ]
+%SER 91.48 [ 1932 / 2112 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_dev_rescore/cer_10_0.5
+%WER 31.46 [ 51194 / 162743, 12159 ins, 13633 del, 25402 sub ]
+%SER 91.57 [ 1934 / 2112 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_dev_rescore/cer_10_1.0
+%WER 31.18 [ 50737 / 162743, 11563 ins, 13941 del, 25233 sub ]
+%SER 91.34 [ 1929 / 2112 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_dev_rescore/cer_11_0.0
+%WER 31.45 [ 51179 / 162743, 12114 ins, 13663 del, 25402 sub ]
+%SER 91.52 [ 1933 / 2112 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_dev_rescore/cer_11_0.5
+%WER 31.08 [ 50580 / 162743, 11368 ins, 13969 del, 25243 sub ]
+%SER 91.52 [ 1933 / 2112 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_dev_rescore/cer_11_1.0
+%WER 30.82 [ 50155 / 162743, 10802 ins, 14282 del, 25071 sub ]
+%SER 91.62 [ 1935 / 2112 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_dev_rescore/cer_12_0.0
+%WER 31.14 [ 50671 / 162743, 11411 ins, 13962 del, 25298 sub ]
+%SER 91.67 [ 1936 / 2112 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_dev_rescore/cer_12_0.5
+%WER 30.84 [ 50183 / 162743, 10703 ins, 14257 del, 25223 sub ]
+%SER 91.71 [ 1937 / 2112 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_dev_rescore/cer_12_1.0
+%WER 30.62 [ 49836 / 162743, 10106 ins, 14575 del, 25155 sub ]
+%SER 91.71 [ 1937 / 2112 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_dev_rescore/cer_13_0.0
+%WER 30.96 [ 50386 / 162743, 10816 ins, 14155 del, 25415 sub ]
+%SER 91.76 [ 1938 / 2112 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_dev_rescore/cer_13_0.5
+%WER 30.72 [ 49993 / 162743, 10189 ins, 14482 del, 25322 sub ]
+%SER 91.71 [ 1937 / 2112 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_dev_rescore/cer_13_1.0
+%WER 30.61 [ 49814 / 162743, 9813 ins, 14858 del, 25143 sub ]
+%SER 91.86 [ 1940 / 2112 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_dev_rescore/cer_14_0.0
+%WER 30.88 [ 50258 / 162743, 10360 ins, 14354 del, 25544 sub ]
+%SER 91.76 [ 1938 / 2112 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_dev_rescore/cer_14_0.5
+%WER 30.70 [ 49966 / 162743, 9842 ins, 14740 del, 25384 sub ]
+%SER 91.76 [ 1938 / 2112 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_dev_rescore/cer_14_1.0
+%WER 30.57 [ 49758 / 162743, 9466 ins, 15121 del, 25171 sub ]
+%SER 91.86 [ 1940 / 2112 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_dev_rescore/cer_15_0.0
+%WER 30.91 [ 50304 / 162743, 10107 ins, 14644 del, 25553 sub ]
+%SER 91.76 [ 1938 / 2112 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_dev_rescore/cer_15_0.5
+%WER 30.77 [ 50071 / 162743, 9686 ins, 15077 del, 25308 sub ]
+%SER 91.90 [ 1941 / 2112 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_dev_rescore/cer_15_1.0
+%WER 30.67 [ 49918 / 162743, 9260 ins, 15343 del, 25315 sub ]
+%SER 91.76 [ 1938 / 2112 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_dev_rescore/cer_16_0.0
+%WER 31.00 [ 50455 / 162743, 9955 ins, 14949 del, 25551 sub ]
+%SER 91.76 [ 1938 / 2112 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_dev_rescore/cer_16_0.5
+%WER 30.86 [ 50222 / 162743, 9470 ins, 15264 del, 25488 sub ]
+%SER 91.86 [ 1940 / 2112 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_dev_rescore/cer_16_1.0
+%WER 30.82 [ 50154 / 162743, 9121 ins, 15515 del, 25518 sub ]
+%SER 91.86 [ 1940 / 2112 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_dev_rescore/cer_17_0.0
+%WER 31.06 [ 50548 / 162743, 9737 ins, 15123 del, 25688 sub ]
+%SER 91.76 [ 1938 / 2112 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_dev_rescore/cer_17_0.5
+%WER 30.97 [ 50409 / 162743, 9311 ins, 15428 del, 25670 sub ]
+%SER 91.86 [ 1940 / 2112 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_dev_rescore/cer_17_1.0
+%WER 30.97 [ 50407 / 162743, 9049 ins, 15722 del, 25636 sub ]
+%SER 91.90 [ 1941 / 2112 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_dev_rescore/cer_7_0.0
+%WER 33.57 [ 54636 / 162743, 15696 ins, 12733 del, 26207 sub ]
+%SER 91.38 [ 1930 / 2112 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_dev_rescore/cer_7_0.5
+%WER 33.22 [ 54063 / 162743, 15217 ins, 12870 del, 25976 sub ]
+%SER 91.38 [ 1930 / 2112 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_dev_rescore/cer_7_1.0
+%WER 32.95 [ 53622 / 162743, 14736 ins, 13026 del, 25860 sub ]
+%SER 91.34 [ 1929 / 2112 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_dev_rescore/cer_8_0.0
+%WER 33.07 [ 53813 / 162743, 14887 ins, 12884 del, 26042 sub ]
+%SER 91.29 [ 1928 / 2112 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_dev_rescore/cer_8_0.5
+%WER 32.66 [ 53145 / 162743, 14289 ins, 13069 del, 25787 sub ]
+%SER 91.38 [ 1930 / 2112 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_dev_rescore/cer_8_1.0
+%WER 32.38 [ 52691 / 162743, 13782 ins, 13359 del, 25550 sub ]
+%SER 91.34 [ 1929 / 2112 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_dev_rescore/cer_9_0.0
+%WER 32.44 [ 52797 / 162743, 13926 ins, 13067 del, 25804 sub ]
+%SER 91.48 [ 1932 / 2112 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_dev_rescore/cer_9_0.5
+%WER 32.02 [ 52108 / 162743, 13284 ins, 13366 del, 25458 sub ]
+%SER 91.57 [ 1934 / 2112 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_dev_rescore/cer_9_1.0
+%WER 31.63 [ 51474 / 162743, 12487 ins, 13613 del, 25374 sub ]
+%SER 91.38 [ 1930 / 2112 ]
+steps/scoring/score_kaldi_cer.sh --cmd run.pl data/fgc_wo_noise_test_hires data/lang_rescore exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_test_rescore
+steps/scoring/score_kaldi_cer.sh: scoring with word insertion penalty=0.0,0.5,1.0
+<WER>
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_test_rescore/wer_10_0.0
+%WER 37.95 [ 39193 / 103275, 8654 ins, 9656 del, 20883 sub ]
+%SER 90.70 [ 1921 / 2118 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_test_rescore/wer_10_0.5
+%WER 37.20 [ 38418 / 103275, 7707 ins, 10216 del, 20495 sub ]
+%SER 90.60 [ 1919 / 2118 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_test_rescore/wer_10_1.0
+%WER 36.73 [ 37930 / 103275, 6912 ins, 10809 del, 20209 sub ]
+%SER 90.65 [ 1920 / 2118 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_test_rescore/wer_11_0.0
+%WER 37.53 [ 38762 / 103275, 8083 ins, 9900 del, 20779 sub ]
+%SER 90.89 [ 1925 / 2118 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_test_rescore/wer_11_0.5
+%WER 36.92 [ 38134 / 103275, 7226 ins, 10585 del, 20323 sub ]
+%SER 90.84 [ 1924 / 2118 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_test_rescore/wer_11_1.0
+%WER 36.52 [ 37711 / 103275, 6512 ins, 11226 del, 19973 sub ]
+%SER 90.79 [ 1923 / 2118 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_test_rescore/wer_12_0.0
+%WER 37.26 [ 38478 / 103275, 7616 ins, 10085 del, 20777 sub ]
+%SER 90.93 [ 1926 / 2118 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_test_rescore/wer_12_0.5
+%WER 36.73 [ 37934 / 103275, 6761 ins, 10833 del, 20340 sub ]
+%SER 90.79 [ 1923 / 2118 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_test_rescore/wer_12_1.0
+%WER 36.40 [ 37590 / 103275, 6105 ins, 11563 del, 19922 sub ]
+%SER 90.79 [ 1923 / 2118 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_test_rescore/wer_13_0.0
+%WER 37.17 [ 38392 / 103275, 7277 ins, 10416 del, 20699 sub ]
+%SER 90.89 [ 1925 / 2118 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_test_rescore/wer_13_0.5
+%WER 36.65 [ 37849 / 103275, 6443 ins, 11166 del, 20240 sub ]
+%SER 90.75 [ 1922 / 2118 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_test_rescore/wer_13_1.0
+%WER 36.45 [ 37643 / 103275, 5822 ins, 11878 del, 19943 sub ]
+%SER 90.75 [ 1922 / 2118 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_test_rescore/wer_14_0.0
+%WER 37.15 [ 38370 / 103275, 6923 ins, 10690 del, 20757 sub ]
+%SER 90.93 [ 1926 / 2118 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_test_rescore/wer_14_0.5
+%WER 36.74 [ 37947 / 103275, 6192 ins, 11438 del, 20317 sub ]
+%SER 90.84 [ 1924 / 2118 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_test_rescore/wer_14_1.0
+%WER 36.55 [ 37746 / 103275, 5566 ins, 12183 del, 19997 sub ]
+%SER 90.79 [ 1923 / 2118 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_test_rescore/wer_15_0.0
+%WER 37.28 [ 38500 / 103275, 6757 ins, 10970 del, 20773 sub ]
+%SER 90.98 [ 1927 / 2118 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_test_rescore/wer_15_0.5
+%WER 36.83 [ 38037 / 103275, 5958 ins, 11705 del, 20374 sub ]
+%SER 90.79 [ 1923 / 2118 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_test_rescore/wer_15_1.0
+%WER 36.72 [ 37926 / 103275, 5419 ins, 12436 del, 20071 sub ]
+%SER 90.89 [ 1925 / 2118 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_test_rescore/wer_16_0.0
+%WER 37.36 [ 38587 / 103275, 6541 ins, 11178 del, 20868 sub ]
+%SER 90.98 [ 1927 / 2118 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_test_rescore/wer_16_0.5
+%WER 36.95 [ 38157 / 103275, 5794 ins, 11931 del, 20432 sub ]
+%SER 90.89 [ 1925 / 2118 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_test_rescore/wer_16_1.0
+%WER 36.90 [ 38113 / 103275, 5304 ins, 12685 del, 20124 sub ]
+%SER 91.12 [ 1930 / 2118 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_test_rescore/wer_17_0.0
+%WER 37.48 [ 38708 / 103275, 6369 ins, 11356 del, 20983 sub ]
+%SER 91.22 [ 1932 / 2118 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_test_rescore/wer_17_0.5
+%WER 37.13 [ 38350 / 103275, 5684 ins, 12142 del, 20524 sub ]
+%SER 91.12 [ 1930 / 2118 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_test_rescore/wer_17_1.0
+%WER 37.17 [ 38388 / 103275, 5201 ins, 12937 del, 20250 sub ]
+%SER 91.36 [ 1935 / 2118 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_test_rescore/wer_7_0.0
+%WER 39.62 [ 40918 / 103275, 10373 ins, 8584 del, 21961 sub ]
+%SER 90.89 [ 1925 / 2118 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_test_rescore/wer_7_0.5
+%WER 38.86 [ 40137 / 103275, 9600 ins, 9061 del, 21476 sub ]
+%SER 90.60 [ 1919 / 2118 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_test_rescore/wer_7_1.0
+%WER 38.42 [ 39677 / 103275, 8876 ins, 9608 del, 21193 sub ]
+%SER 90.60 [ 1919 / 2118 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_test_rescore/wer_8_0.0
+%WER 38.93 [ 40201 / 103275, 9774 ins, 8884 del, 21543 sub ]
+%SER 90.75 [ 1922 / 2118 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_test_rescore/wer_8_0.5
+%WER 38.18 [ 39426 / 103275, 8873 ins, 9393 del, 21160 sub ]
+%SER 90.51 [ 1917 / 2118 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_test_rescore/wer_8_1.0
+%WER 37.75 [ 38985 / 103275, 8141 ins, 10000 del, 20844 sub ]
+%SER 90.46 [ 1916 / 2118 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_test_rescore/wer_9_0.0
+%WER 38.38 [ 39638 / 103275, 9137 ins, 9212 del, 21289 sub ]
+%SER 90.84 [ 1924 / 2118 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_test_rescore/wer_9_0.5
+%WER 37.67 [ 38907 / 103275, 8360 ins, 9915 del, 20632 sub ]
+%SER 90.46 [ 1916 / 2118 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_test_rescore/wer_9_1.0
+%WER 37.14 [ 38356 / 103275, 7510 ins, 10496 del, 20350 sub ]
+%SER 90.56 [ 1918 / 2118 ]
+<CER>
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_test_rescore/cer_10_0.0
+%WER 30.08 [ 47680 / 158514, 11972 ins, 12106 del, 23602 sub ]
+%SER 90.56 [ 1918 / 2118 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_test_rescore/cer_10_0.5
+%WER 29.62 [ 46956 / 158514, 11247 ins, 12315 del, 23394 sub ]
+%SER 90.46 [ 1916 / 2118 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_test_rescore/cer_10_1.0
+%WER 29.36 [ 46538 / 158514, 10663 ins, 12486 del, 23389 sub ]
+%SER 90.51 [ 1917 / 2118 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_test_rescore/cer_11_0.0
+%WER 29.71 [ 47102 / 158514, 11189 ins, 12296 del, 23617 sub ]
+%SER 90.75 [ 1922 / 2118 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_test_rescore/cer_11_0.5
+%WER 29.34 [ 46503 / 158514, 10515 ins, 12529 del, 23459 sub ]
+%SER 90.70 [ 1921 / 2118 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_test_rescore/cer_11_1.0
+%WER 29.10 [ 46120 / 158514, 9966 ins, 12730 del, 23424 sub ]
+%SER 90.65 [ 1920 / 2118 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_test_rescore/cer_12_0.0
+%WER 29.44 [ 46671 / 158514, 10568 ins, 12472 del, 23631 sub ]
+%SER 90.79 [ 1923 / 2118 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_test_rescore/cer_12_0.5
+%WER 29.14 [ 46191 / 158514, 9923 ins, 12735 del, 23533 sub ]
+%SER 90.65 [ 1920 / 2118 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_test_rescore/cer_12_1.0
+%WER 28.93 [ 45854 / 158514, 9389 ins, 12968 del, 23497 sub ]
+%SER 90.65 [ 1920 / 2118 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_test_rescore/cer_13_0.0
+%WER 29.34 [ 46508 / 158514, 10073 ins, 12691 del, 23744 sub ]
+%SER 90.75 [ 1922 / 2118 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_test_rescore/cer_13_0.5
+%WER 29.04 [ 46032 / 158514, 9473 ins, 12936 del, 23623 sub ]
+%SER 90.60 [ 1919 / 2118 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_test_rescore/cer_13_1.0
+%WER 28.93 [ 45861 / 158514, 9045 ins, 13204 del, 23612 sub ]
+%SER 90.60 [ 1919 / 2118 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_test_rescore/cer_14_0.0
+%WER 29.31 [ 46468 / 158514, 9621 ins, 12867 del, 23980 sub ]
+%SER 90.79 [ 1923 / 2118 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_test_rescore/cer_14_0.5
+%WER 29.08 [ 46102 / 158514, 9158 ins, 13170 del, 23774 sub ]
+%SER 90.70 [ 1921 / 2118 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_test_rescore/cer_14_1.0
+%WER 28.97 [ 45914 / 158514, 8769 ins, 13482 del, 23663 sub ]
+%SER 90.65 [ 1920 / 2118 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_test_rescore/cer_15_0.0
+%WER 29.43 [ 46647 / 158514, 9390 ins, 13106 del, 24151 sub ]
+%SER 90.84 [ 1924 / 2118 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_test_rescore/cer_15_0.5
+%WER 29.15 [ 46213 / 158514, 8950 ins, 13457 del, 23806 sub ]
+%SER 90.65 [ 1920 / 2118 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_test_rescore/cer_15_1.0
+%WER 29.10 [ 46125 / 158514, 8611 ins, 13684 del, 23830 sub ]
+%SER 90.75 [ 1922 / 2118 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_test_rescore/cer_16_0.0
+%WER 29.50 [ 46767 / 158514, 9185 ins, 13291 del, 24291 sub ]
+%SER 90.84 [ 1924 / 2118 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_test_rescore/cer_16_0.5
+%WER 29.25 [ 46360 / 158514, 8772 ins, 13644 del, 23944 sub ]
+%SER 90.75 [ 1922 / 2118 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_test_rescore/cer_16_1.0
+%WER 29.21 [ 46298 / 158514, 8477 ins, 13883 del, 23938 sub ]
+%SER 90.98 [ 1927 / 2118 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_test_rescore/cer_17_0.0
+%WER 29.61 [ 46929 / 158514, 9001 ins, 13462 del, 24466 sub ]
+%SER 91.03 [ 1928 / 2118 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_test_rescore/cer_17_0.5
+%WER 29.40 [ 46596 / 158514, 8701 ins, 13874 del, 24021 sub ]
+%SER 90.93 [ 1926 / 2118 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_test_rescore/cer_17_1.0
+%WER 29.41 [ 46612 / 158514, 8369 ins, 14051 del, 24192 sub ]
+%SER 91.22 [ 1932 / 2118 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_test_rescore/cer_7_0.0
+%WER 31.48 [ 49908 / 158514, 14076 ins, 11245 del, 24587 sub ]
+%SER 90.65 [ 1920 / 2118 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_test_rescore/cer_7_0.5
+%WER 31.11 [ 49317 / 158514, 13677 ins, 11383 del, 24257 sub ]
+%SER 90.37 [ 1914 / 2118 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_test_rescore/cer_7_1.0
+%WER 30.88 [ 48949 / 158514, 13231 ins, 11570 del, 24148 sub ]
+%SER 90.42 [ 1915 / 2118 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_test_rescore/cer_8_0.0
+%WER 30.96 [ 49076 / 158514, 13397 ins, 11462 del, 24217 sub ]
+%SER 90.56 [ 1918 / 2118 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_test_rescore/cer_8_0.5
+%WER 30.56 [ 48436 / 158514, 12949 ins, 11708 del, 23779 sub ]
+%SER 90.32 [ 1913 / 2118 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_test_rescore/cer_8_1.0
+%WER 30.31 [ 48053 / 158514, 12535 ins, 12074 del, 23444 sub ]
+%SER 90.27 [ 1912 / 2118 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_test_rescore/cer_9_0.0
+%WER 30.48 [ 48309 / 158514, 12852 ins, 11897 del, 23560 sub ]
+%SER 90.70 [ 1921 / 2118 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_test_rescore/cer_9_0.5
+%WER 30.06 [ 47648 / 158514, 12146 ins, 12109 del, 23393 sub ]
+%SER 90.32 [ 1913 / 2118 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_wo_noise_test_rescore/cer_9_1.0
+%WER 29.75 [ 47160 / 158514, 11484 ins, 12262 del, 23414 sub ]
+%SER 90.42 [ 1915 / 2118 ]
+steps/scoring/score_kaldi_cer.sh --cmd run.pl data/fgc_w_noise_dev_hires data/lang_rescore exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_dev_rescore
+steps/scoring/score_kaldi_cer.sh: scoring with word insertion penalty=0.0,0.5,1.0
+<WER>
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_dev_rescore/wer_10_0.0
+%WER 58.39 [ 81705 / 139919, 13123 ins, 35034 del, 33548 sub ]
+%SER 91.16 [ 2051 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_dev_rescore/wer_10_0.5
+%WER 57.46 [ 80402 / 139919, 11547 ins, 36431 del, 32424 sub ]
+%SER 91.07 [ 2049 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_dev_rescore/wer_10_1.0
+%WER 56.89 [ 79602 / 139919, 10367 ins, 37726 del, 31509 sub ]
+%SER 90.93 [ 2046 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_dev_rescore/wer_11_0.0
+%WER 57.63 [ 80631 / 139919, 11840 ins, 36441 del, 32350 sub ]
+%SER 91.11 [ 2050 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_dev_rescore/wer_11_0.5
+%WER 56.81 [ 79485 / 139919, 10460 ins, 37946 del, 31079 sub ]
+%SER 90.98 [ 2047 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_dev_rescore/wer_11_1.0
+%WER 56.34 [ 78826 / 139919, 9457 ins, 39350 del, 30019 sub ]
+%SER 91.16 [ 2051 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_dev_rescore/wer_12_0.0
+%WER 57.04 [ 79807 / 139919, 10742 ins, 37692 del, 31373 sub ]
+%SER 91.07 [ 2049 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_dev_rescore/wer_12_0.5
+%WER 56.44 [ 78971 / 139919, 9723 ins, 39346 del, 29902 sub ]
+%SER 91.33 [ 2055 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_dev_rescore/wer_12_1.0
+%WER 56.10 [ 78493 / 139919, 8852 ins, 40688 del, 28953 sub ]
+%SER 91.38 [ 2056 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_dev_rescore/wer_13_0.0
+%WER 56.73 [ 79380 / 139919, 10079 ins, 38819 del, 30482 sub ]
+%SER 91.38 [ 2056 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_dev_rescore/wer_13_0.5
+%WER 56.24 [ 78685 / 139919, 9061 ins, 40381 del, 29243 sub ]
+%SER 91.51 [ 2059 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_dev_rescore/wer_13_1.0
+%WER 56.05 [ 78419 / 139919, 8322 ins, 41650 del, 28447 sub ]
+%SER 91.60 [ 2061 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_dev_rescore/wer_14_0.0
+%WER 56.62 [ 79216 / 139919, 9510 ins, 39738 del, 29968 sub ]
+%SER 91.60 [ 2061 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_dev_rescore/wer_14_0.5
+%WER 56.22 [ 78660 / 139919, 8610 ins, 41201 del, 28849 sub ]
+%SER 91.56 [ 2060 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_dev_rescore/wer_14_1.0
+%WER 56.12 [ 78520 / 139919, 7991 ins, 42530 del, 27999 sub ]
+%SER 91.56 [ 2060 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_dev_rescore/wer_15_0.0
+%WER 56.56 [ 79139 / 139919, 9197 ins, 40672 del, 29270 sub ]
+%SER 91.73 [ 2064 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_dev_rescore/wer_15_0.5
+%WER 56.30 [ 78768 / 139919, 8281 ins, 41972 del, 28515 sub ]
+%SER 91.82 [ 2066 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_dev_rescore/wer_15_1.0
+%WER 56.29 [ 78766 / 139919, 7688 ins, 43163 del, 27915 sub ]
+%SER 91.87 [ 2067 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_dev_rescore/wer_16_0.0
+%WER 56.61 [ 79214 / 139919, 8832 ins, 41321 del, 29061 sub ]
+%SER 92.13 [ 2073 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_dev_rescore/wer_16_0.5
+%WER 56.44 [ 78969 / 139919, 8068 ins, 42611 del, 28290 sub ]
+%SER 92.00 [ 2070 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_dev_rescore/wer_16_1.0
+%WER 56.46 [ 78994 / 139919, 7483 ins, 43701 del, 27810 sub ]
+%SER 92.18 [ 2074 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_dev_rescore/wer_17_0.0
+%WER 56.74 [ 79386 / 139919, 8633 ins, 41917 del, 28836 sub ]
+%SER 92.22 [ 2075 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_dev_rescore/wer_17_0.5
+%WER 56.57 [ 79150 / 139919, 7845 ins, 43109 del, 28196 sub ]
+%SER 92.18 [ 2074 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_dev_rescore/wer_17_1.0
+%WER 56.64 [ 79244 / 139919, 7333 ins, 44192 del, 27719 sub ]
+%SER 92.27 [ 2076 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_dev_rescore/wer_7_0.0
+%WER 61.80 [ 86474 / 139919, 17012 ins, 30563 del, 38899 sub ]
+%SER 92.04 [ 2071 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_dev_rescore/wer_7_0.5
+%WER 61.02 [ 85383 / 139919, 16020 ins, 31570 del, 37793 sub ]
+%SER 92.04 [ 2071 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_dev_rescore/wer_7_1.0
+%WER 60.29 [ 84359 / 139919, 15114 ins, 32676 del, 36569 sub ]
+%SER 92.04 [ 2071 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_dev_rescore/wer_8_0.0
+%WER 60.75 [ 85004 / 139919, 15953 ins, 31775 del, 37276 sub ]
+%SER 91.91 [ 2068 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_dev_rescore/wer_8_0.5
+%WER 59.76 [ 83617 / 139919, 14632 ins, 32958 del, 36027 sub ]
+%SER 91.73 [ 2064 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_dev_rescore/wer_8_1.0
+%WER 58.94 [ 82468 / 139919, 13535 ins, 34244 del, 34689 sub ]
+%SER 91.56 [ 2060 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_dev_rescore/wer_9_0.0
+%WER 59.48 [ 83227 / 139919, 14394 ins, 33099 del, 35734 sub ]
+%SER 91.47 [ 2058 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_dev_rescore/wer_9_0.5
+%WER 58.47 [ 81809 / 139919, 13168 ins, 34860 del, 33781 sub ]
+%SER 91.33 [ 2055 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_dev_rescore/wer_9_1.0
+%WER 57.68 [ 80700 / 139919, 11680 ins, 36171 del, 32849 sub ]
+%SER 91.29 [ 2054 / 2250 ]
+<CER>
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_dev_rescore/cer_10_0.0
+%WER 52.73 [ 112702 / 213720, 23626 ins, 46151 del, 42925 sub ]
+%SER 90.84 [ 2044 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_dev_rescore/cer_10_0.5
+%WER 51.95 [ 111026 / 213720, 21562 ins, 47031 del, 42433 sub ]
+%SER 90.76 [ 2042 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_dev_rescore/cer_10_1.0
+%WER 51.40 [ 109858 / 213720, 20326 ins, 48267 del, 41265 sub ]
+%SER 90.62 [ 2039 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_dev_rescore/cer_11_0.0
+%WER 51.86 [ 110835 / 213720, 21322 ins, 47564 del, 41949 sub ]
+%SER 90.84 [ 2044 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_dev_rescore/cer_11_0.5
+%WER 51.13 [ 109280 / 213720, 19551 ins, 48717 del, 41012 sub ]
+%SER 90.71 [ 2041 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_dev_rescore/cer_11_1.0
+%WER 50.65 [ 108251 / 213720, 18321 ins, 49897 del, 40033 sub ]
+%SER 90.89 [ 2045 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_dev_rescore/cer_12_0.0
+%WER 51.14 [ 109299 / 213720, 19431 ins, 48982 del, 40886 sub ]
+%SER 90.80 [ 2043 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_dev_rescore/cer_12_0.5
+%WER 50.63 [ 108217 / 213720, 18074 ins, 50223 del, 39920 sub ]
+%SER 91.02 [ 2048 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_dev_rescore/cer_12_1.0
+%WER 50.27 [ 107430 / 213720, 16868 ins, 51148 del, 39414 sub ]
+%SER 91.07 [ 2049 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_dev_rescore/cer_13_0.0
+%WER 50.75 [ 108472 / 213720, 18166 ins, 50250 del, 40056 sub ]
+%SER 91.07 [ 2049 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_dev_rescore/cer_13_0.5
+%WER 50.35 [ 107615 / 213720, 16996 ins, 51423 del, 39196 sub ]
+%SER 91.20 [ 2052 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_dev_rescore/cer_13_1.0
+%WER 50.15 [ 107188 / 213720, 16232 ins, 52535 del, 38421 sub ]
+%SER 91.29 [ 2054 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_dev_rescore/cer_14_0.0
+%WER 50.59 [ 108129 / 213720, 17270 ins, 51254 del, 39605 sub ]
+%SER 91.29 [ 2054 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_dev_rescore/cer_14_0.5
+%WER 50.28 [ 107453 / 213720, 16322 ins, 52454 del, 38677 sub ]
+%SER 91.24 [ 2053 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_dev_rescore/cer_14_1.0
+%WER 50.15 [ 107175 / 213720, 15643 ins, 53611 del, 37921 sub ]
+%SER 91.24 [ 2053 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_dev_rescore/cer_15_0.0
+%WER 50.50 [ 107938 / 213720, 16729 ins, 52365 del, 38844 sub ]
+%SER 91.42 [ 2057 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_dev_rescore/cer_15_0.5
+%WER 50.30 [ 107497 / 213720, 15867 ins, 53493 del, 38137 sub ]
+%SER 91.51 [ 2059 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_dev_rescore/cer_15_1.0
+%WER 50.23 [ 107358 / 213720, 15240 ins, 54493 del, 37625 sub ]
+%SER 91.56 [ 2060 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_dev_rescore/cer_16_0.0
+%WER 50.52 [ 107975 / 213720, 16341 ins, 53259 del, 38375 sub ]
+%SER 91.82 [ 2066 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_dev_rescore/cer_16_0.5
+%WER 50.37 [ 107660 / 213720, 15544 ins, 54318 del, 37798 sub ]
+%SER 91.69 [ 2063 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_dev_rescore/cer_16_1.0
+%WER 50.34 [ 107583 / 213720, 14885 ins, 55111 del, 37587 sub ]
+%SER 91.87 [ 2067 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_dev_rescore/cer_17_0.0
+%WER 50.60 [ 108151 / 213720, 15978 ins, 53951 del, 38222 sub ]
+%SER 91.96 [ 2069 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_dev_rescore/cer_17_0.5
+%WER 50.46 [ 107842 / 213720, 15195 ins, 54878 del, 37769 sub ]
+%SER 91.91 [ 2068 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_dev_rescore/cer_17_1.0
+%WER 50.46 [ 107849 / 213720, 14610 ins, 55613 del, 37626 sub ]
+%SER 92.00 [ 2070 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_dev_rescore/cer_7_0.0
+%WER 56.37 [ 120464 / 213720, 30738 ins, 41975 del, 47751 sub ]
+%SER 91.64 [ 2062 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_dev_rescore/cer_7_0.5
+%WER 55.91 [ 119497 / 213720, 30069 ins, 42609 del, 46819 sub ]
+%SER 91.64 [ 2062 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_dev_rescore/cer_7_1.0
+%WER 55.40 [ 118396 / 213720, 28986 ins, 43057 del, 46353 sub ]
+%SER 91.64 [ 2062 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_dev_rescore/cer_8_0.0
+%WER 55.29 [ 118163 / 213720, 28932 ins, 43106 del, 46125 sub ]
+%SER 91.51 [ 2059 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_dev_rescore/cer_8_0.5
+%WER 54.55 [ 116583 / 213720, 27735 ins, 43981 del, 44867 sub ]
+%SER 91.38 [ 2056 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_dev_rescore/cer_8_1.0
+%WER 53.92 [ 115229 / 213720, 26307 ins, 44674 del, 44248 sub ]
+%SER 91.20 [ 2052 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_dev_rescore/cer_9_0.0
+%WER 53.97 [ 115342 / 213720, 26468 ins, 44450 del, 44424 sub ]
+%SER 91.16 [ 2051 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_dev_rescore/cer_9_0.5
+%WER 53.10 [ 113481 / 213720, 24683 ins, 45643 del, 43155 sub ]
+%SER 91.02 [ 2048 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_dev_rescore/cer_9_1.0
+%WER 52.37 [ 111925 / 213720, 22807 ins, 46625 del, 42493 sub ]
+%SER 90.98 [ 2047 / 2250 ]
+steps/scoring/score_kaldi_cer.sh --cmd run.pl data/fgc_w_noise_test_hires data/lang_rescore exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_test_rescore
+steps/scoring/score_kaldi_cer.sh: scoring with word insertion penalty=0.0,0.5,1.0
+<WER>
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_test_rescore/wer_10_0.0
+%WER 57.23 [ 79558 / 139012, 12222 ins, 34700 del, 32636 sub ]
+%SER 91.56 [ 2060 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_test_rescore/wer_10_0.5
+%WER 56.40 [ 78407 / 139012, 10914 ins, 36202 del, 31291 sub ]
+%SER 91.42 [ 2057 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_test_rescore/wer_10_1.0
+%WER 55.87 [ 77671 / 139012, 9876 ins, 37645 del, 30150 sub ]
+%SER 91.38 [ 2056 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_test_rescore/wer_11_0.0
+%WER 56.54 [ 78597 / 139012, 11016 ins, 36133 del, 31448 sub ]
+%SER 91.42 [ 2057 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_test_rescore/wer_11_0.5
+%WER 55.76 [ 77520 / 139012, 9898 ins, 37714 del, 29908 sub ]
+%SER 91.33 [ 2055 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_test_rescore/wer_11_1.0
+%WER 55.35 [ 76945 / 139012, 8883 ins, 38996 del, 29066 sub ]
+%SER 91.38 [ 2056 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_test_rescore/wer_12_0.0
+%WER 55.91 [ 77724 / 139012, 10054 ins, 37361 del, 30309 sub ]
+%SER 91.60 [ 2061 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_test_rescore/wer_12_0.5
+%WER 55.47 [ 77104 / 139012, 9034 ins, 38866 del, 29204 sub ]
+%SER 91.56 [ 2060 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_test_rescore/wer_12_1.0
+%WER 55.13 [ 76641 / 139012, 8203 ins, 40161 del, 28277 sub ]
+%SER 91.60 [ 2061 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_test_rescore/wer_13_0.0
+%WER 55.72 [ 77452 / 139012, 9356 ins, 38409 del, 29687 sub ]
+%SER 91.64 [ 2062 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_test_rescore/wer_13_0.5
+%WER 55.32 [ 76902 / 139012, 8519 ins, 39907 del, 28476 sub ]
+%SER 91.69 [ 2063 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_test_rescore/wer_13_1.0
+%WER 55.20 [ 76736 / 139012, 7860 ins, 41250 del, 27626 sub ]
+%SER 91.87 [ 2067 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_test_rescore/wer_14_0.0
+%WER 55.61 [ 77298 / 139012, 8889 ins, 39274 del, 29135 sub ]
+%SER 91.78 [ 2065 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_test_rescore/wer_14_0.5
+%WER 55.37 [ 76968 / 139012, 8149 ins, 40777 del, 28042 sub ]
+%SER 91.87 [ 2067 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_test_rescore/wer_14_1.0
+%WER 55.30 [ 76876 / 139012, 7480 ins, 41976 del, 27420 sub ]
+%SER 92.13 [ 2073 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_test_rescore/wer_15_0.0
+%WER 55.61 [ 77310 / 139012, 8654 ins, 40151 del, 28505 sub ]
+%SER 91.87 [ 2067 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_test_rescore/wer_15_0.5
+%WER 55.47 [ 77104 / 139012, 7856 ins, 41511 del, 27737 sub ]
+%SER 92.18 [ 2074 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_test_rescore/wer_15_1.0
+%WER 55.43 [ 77060 / 139012, 7332 ins, 42716 del, 27012 sub ]
+%SER 92.40 [ 2079 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_test_rescore/wer_16_0.0
+%WER 55.71 [ 77437 / 139012, 8320 ins, 40777 del, 28340 sub ]
+%SER 92.04 [ 2071 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_test_rescore/wer_16_0.5
+%WER 55.59 [ 77280 / 139012, 7657 ins, 42144 del, 27479 sub ]
+%SER 92.31 [ 2077 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_test_rescore/wer_16_1.0
+%WER 55.59 [ 77271 / 139012, 7142 ins, 43239 del, 26890 sub ]
+%SER 92.36 [ 2078 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_test_rescore/wer_17_0.0
+%WER 55.85 [ 77638 / 139012, 8110 ins, 41308 del, 28220 sub ]
+%SER 92.22 [ 2075 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_test_rescore/wer_17_0.5
+%WER 55.76 [ 77512 / 139012, 7506 ins, 42638 del, 27368 sub ]
+%SER 92.44 [ 2080 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_test_rescore/wer_17_1.0
+%WER 55.75 [ 77503 / 139012, 6970 ins, 43665 del, 26868 sub ]
+%SER 92.53 [ 2082 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_test_rescore/wer_7_0.0
+%WER 60.38 [ 83929 / 139012, 16191 ins, 31110 del, 36628 sub ]
+%SER 92.18 [ 2074 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_test_rescore/wer_7_0.5
+%WER 59.62 [ 82879 / 139012, 15065 ins, 31918 del, 35896 sub ]
+%SER 91.87 [ 2067 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_test_rescore/wer_7_1.0
+%WER 58.96 [ 81959 / 139012, 14158 ins, 32991 del, 34810 sub ]
+%SER 91.91 [ 2068 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_test_rescore/wer_8_0.0
+%WER 59.33 [ 82471 / 139012, 14955 ins, 31967 del, 35549 sub ]
+%SER 91.73 [ 2064 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_test_rescore/wer_8_0.5
+%WER 58.47 [ 81279 / 139012, 13648 ins, 33129 del, 34502 sub ]
+%SER 91.78 [ 2065 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_test_rescore/wer_8_1.0
+%WER 57.72 [ 80231 / 139012, 12667 ins, 34449 del, 33115 sub ]
+%SER 91.56 [ 2060 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_test_rescore/wer_9_0.0
+%WER 58.21 [ 80921 / 139012, 13529 ins, 33224 del, 34168 sub ]
+%SER 91.64 [ 2062 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_test_rescore/wer_9_0.5
+%WER 57.37 [ 79752 / 139012, 12270 ins, 34708 del, 32774 sub ]
+%SER 91.42 [ 2057 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_test_rescore/wer_9_1.0
+%WER 56.64 [ 78735 / 139012, 11048 ins, 35852 del, 31835 sub ]
+%SER 91.33 [ 2055 / 2250 ]
+<CER>
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_test_rescore/cer_10_0.0
+%WER 51.39 [ 108907 / 211916, 22148 ins, 45242 del, 41517 sub ]
+%SER 91.24 [ 2053 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_test_rescore/cer_10_0.5
+%WER 50.69 [ 107411 / 211916, 20380 ins, 46228 del, 40803 sub ]
+%SER 91.11 [ 2050 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_test_rescore/cer_10_1.0
+%WER 50.18 [ 106342 / 211916, 19017 ins, 47373 del, 39952 sub ]
+%SER 91.07 [ 2049 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_test_rescore/cer_11_0.0
+%WER 50.61 [ 107247 / 211916, 20067 ins, 46837 del, 40343 sub ]
+%SER 91.07 [ 2049 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_test_rescore/cer_11_0.5
+%WER 49.91 [ 105773 / 211916, 18410 ins, 47818 del, 39545 sub ]
+%SER 91.11 [ 2050 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_test_rescore/cer_11_1.0
+%WER 49.51 [ 104924 / 211916, 17153 ins, 48859 del, 38912 sub ]
+%SER 91.16 [ 2051 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_test_rescore/cer_12_0.0
+%WER 49.87 [ 105682 / 211916, 18165 ins, 48022 del, 39495 sub ]
+%SER 91.33 [ 2055 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_test_rescore/cer_12_0.5
+%WER 49.49 [ 104880 / 211916, 16846 ins, 49093 del, 38941 sub ]
+%SER 91.33 [ 2055 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_test_rescore/cer_12_1.0
+%WER 49.14 [ 104134 / 211916, 15831 ins, 50171 del, 38132 sub ]
+%SER 91.38 [ 2056 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_test_rescore/cer_13_0.0
+%WER 49.59 [ 105079 / 211916, 16950 ins, 49174 del, 38955 sub ]
+%SER 91.38 [ 2056 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_test_rescore/cer_13_0.5
+%WER 49.22 [ 104314 / 211916, 15878 ins, 50302 del, 38134 sub ]
+%SER 91.42 [ 2057 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_test_rescore/cer_13_1.0
+%WER 49.08 [ 104000 / 211916, 14990 ins, 51292 del, 37718 sub ]
+%SER 91.60 [ 2061 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_test_rescore/cer_14_0.0
+%WER 49.40 [ 104696 / 211916, 16043 ins, 50112 del, 38541 sub ]
+%SER 91.51 [ 2059 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_test_rescore/cer_14_0.5
+%WER 49.18 [ 104210 / 211916, 15138 ins, 51240 del, 37832 sub ]
+%SER 91.60 [ 2061 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_test_rescore/cer_14_1.0
+%WER 49.12 [ 104086 / 211916, 14560 ins, 52411 del, 37115 sub ]
+%SER 91.87 [ 2067 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_test_rescore/cer_15_0.0
+%WER 49.37 [ 104621 / 211916, 15539 ins, 51089 del, 37993 sub ]
+%SER 91.60 [ 2061 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_test_rescore/cer_15_0.5
+%WER 49.22 [ 104296 / 211916, 14735 ins, 52198 del, 37363 sub ]
+%SER 91.91 [ 2068 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_test_rescore/cer_15_1.0
+%WER 49.19 [ 104236 / 211916, 14148 ins, 53173 del, 36915 sub ]
+%SER 92.13 [ 2073 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_test_rescore/cer_16_0.0
+%WER 49.39 [ 104656 / 211916, 15047 ins, 51890 del, 37719 sub ]
+%SER 91.78 [ 2065 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_test_rescore/cer_16_0.5
+%WER 49.30 [ 104471 / 211916, 14389 ins, 53040 del, 37042 sub ]
+%SER 92.04 [ 2071 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_test_rescore/cer_16_1.0
+%WER 49.28 [ 104441 / 211916, 13831 ins, 53804 del, 36806 sub ]
+%SER 92.09 [ 2072 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_test_rescore/cer_17_0.0
+%WER 49.50 [ 104895 / 211916, 14772 ins, 52558 del, 37565 sub ]
+%SER 91.96 [ 2069 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_test_rescore/cer_17_0.5
+%WER 49.44 [ 104761 / 211916, 14121 ins, 53567 del, 37073 sub ]
+%SER 92.18 [ 2074 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_test_rescore/cer_17_1.0
+%WER 49.41 [ 104711 / 211916, 13663 ins, 54385 del, 36663 sub ]
+%SER 92.27 [ 2076 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_test_rescore/cer_7_0.0
+%WER 54.64 [ 115798 / 211916, 28144 ins, 41306 del, 46348 sub ]
+%SER 91.87 [ 2067 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_test_rescore/cer_7_0.5
+%WER 54.20 [ 114856 / 211916, 27562 ins, 41948 del, 45346 sub ]
+%SER 91.60 [ 2061 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_test_rescore/cer_7_1.0
+%WER 53.78 [ 113964 / 211916, 26759 ins, 42502 del, 44703 sub ]
+%SER 91.64 [ 2062 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_test_rescore/cer_8_0.0
+%WER 53.67 [ 113739 / 211916, 26840 ins, 42587 del, 44312 sub ]
+%SER 91.47 [ 2058 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_test_rescore/cer_8_0.5
+%WER 53.04 [ 112395 / 211916, 25523 ins, 43217 del, 43655 sub ]
+%SER 91.47 [ 2058 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_test_rescore/cer_8_1.0
+%WER 52.42 [ 111090 / 211916, 24492 ins, 44215 del, 42383 sub ]
+%SER 91.24 [ 2053 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_test_rescore/cer_9_0.0
+%WER 52.49 [ 111239 / 211916, 24638 ins, 43855 del, 42746 sub ]
+%SER 91.38 [ 2056 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_test_rescore/cer_9_0.5
+%WER 51.79 [ 109749 / 211916, 23060 ins, 44784 del, 41905 sub ]
+%SER 91.11 [ 2050 / 2250 ]
+exp/chain_cleaned_1d/tdnn1d_sp/decode_fgc_w_noise_test_rescore/cer_9_1.0
+%WER 51.15 [ 108386 / 211916, 21450 ins, 45578 del, 41358 sub ]
+%SER 91.02 [ 2048 / 2250 ]
